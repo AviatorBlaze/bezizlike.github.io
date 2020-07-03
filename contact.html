@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <!-- Meta, title, CSS, favicons, etc. -->
@@ -7,12 +7,11 @@
 <meta name="description" content="Our Church is a premium HTML5 Church Website Template with Responsive design. Church Template includes many pages like Bulletin, Programs, events, sermons, ministries, working church contact form etc..">
 <meta name="keywords" content="Church, Website, Template, Bulletin, Programs, Events, Themeforest, Premium, Charity, Non Profit ">
 <meta name="author" content="Surjith SM">
-<title>Bez izlike </title>
+<title>Kontakt</title>
 <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <!-- Church Template CSS -->
 <link href="css/church.css" rel="stylesheet">
-<link href="css/fancybox.css" rel="stylesheet">
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
   <script src="js/html5shiv.js"></script>
@@ -49,138 +48,86 @@
     </div>
     </div>
     <!--/.nav-collapse --> 
-    
 
 <!--// Navbar Ends--> 
 
-<!-- BANNER SLIDER
-    ================================================== -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel"> 
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="item slide-one active">
-      <div class="container">
-        <div class="carousel-caption">
-        <h1>Kamp Izazov za mlade!</h1>
-  <p><a class="btn btn-giant btn-primary" href="event-single.html" role="button">Pridružite se &rarr;</a></p>
-              
-          </div> 
-        </div>                                      
-    </div>
-    <div class="item slide-two">
-      <div class="container">
-        <div class="carousel-caption">
-          <h2>Valovi Milosti</h2>
-          <p class="lead"> 
-Primite neprestani val za valom, za valom, za valom Milosti koji Bog ima za vas  <em>Matej 6:34</em>
-        </div>
-      </div>
-    </div>
-    <div class="item slide-three">
-      <div class="container">
-        <div class="carousel-caption">
-            <h2> Milosti i istina</h2> 
+<!--SUBPAGE HEAD-->
 
-          <p class="lead">Jer Bog nije poslao svoga Sina u svijet da osudi svijet, nego da spasi svijet kroz njega. <em>Ivan 3:17</em></p>
-        </div>
-      </div>
-    </div>
+<div class="subpage-head has-margin-bottom">
+  <div class="container">
+    <h3>Kontaktirajte nas</h3>
+    <p class="lead">
+Adresa naše crkve i podaci za kontakt</p>
   </div>
- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a> </div>
-<!-- // Banner Slider --> 
-
-
-<!--EVENT LISTS-->
-<div class="highlight-bg has-margin-bottom">
-  <div class="container event-cta">
-    <div class="ec-txt"> <span>Predstojeći Event</span>
-      <p>"Kamp Izazov za mlade" 20.7-24.7</p>
-    </div>
-    <a class="btn btn-lg btn-primary" href="event-single.html" role="button">Više detalja →</a> </div>
 </div>
 
-<!-- // END EVENT LISTS --> 
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <!--Latest Sermons-->
-      
-<!--OUR GALLERY-->
-
-<!--// END OUR GALLERY --> 
-<div class="highlight-bg has-margin-bottom">
-  <div class="container event-list">
-    <div class="section-title">
-      <h4> PROGRAMI &amp; DOGAĐAJI </h4>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="owl-carousel">
-          <div class="el-block item">
-            <h4> Nedjelja </h4>
-            <p class="el-head"> Tjedno-Crkva </p>
-            <span>10:00-12:30</span>
-          </div>
-          <div class="el-block item">
-            <h4> Srijeda </h4>
-            <p class="el-head"> Tjedno-Omladinsk </p>
-            <span>7:00-8:30</span>
-
-          </div>
-          <div class="el-block item">
-            <h4>Utorak  </h4>
-            <p class="el-head"> Tjedno-Molitva </p>
-            <span></span>
-          </div>
-          <div class="el-block item">
-            <h4> Kamp Izazov </h4>
-            <p class="el-head"> Kamp Izazov #3 </p>
-            <span>Nije uređeno</span>
-            <p class="el-cta"><a class="btn btn-primary" href="event-single.html" role="button">Details &rarr;</a></p>
-          </div>
+<!-- // END SUBPAGE HEAD -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 has-margin-bottom">
+      <form id="phpcontactform" role="form">
+        <div class="form-group">
+          <label>Ime Prezime</label>
+          <input type="text" class="form-control" name="name" id="name">
         </div>
+        <div class="form-group">
+          <label>Email </label>
+          <input type="email" class="form-control" name="email" id="email">
+        </div>
+        <div class="form-group">
+          <label>TEL</label>
+          <input type="text" class="form-control" name="mobile" id="mobile">
+        </div>
+        <div class="form-group">
+          <label>Vaša poruka</label>
+          <textarea class="form-control" rows="5" name="message" id="message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg">Pošaljite</button>
+        <span class="help-block loading"></span>
+      </form>
+    </div>
+    <!--// col md 9-->
+   <div class="col-md-6 has-margin-bottom">
+      <h5>Naša adresa/Kontakt</h5>
+      <div class="row">
+        <div class="col-lg-6"><br>Zagrebačka cesta 227, 10000, Zagreb<br>
+          Zagreb, Hrvatska</div>
+        <div class="col-lg-6">TEL: +385 0953532255<br>
+          <br>
+          Email: <a href="#">ducicdigger@gmail.com</a></div>
+      </div>
+      <hr>
+      <h5>Radno Vrijeme Ureda</h5>
+      <div class="row">
+        <div class="col-lg-6">Ponedjeljak: 8:00 - 17:00h<br>
+          Utorak: 8:00 - 17:00h <br>
+          </div>
+        <div class="col-lg-6">TEL: +385 3 8376 6284<br>
+          Fax: +385 38 376 6284<br>
+          Email: <a href="#">cce@gmail.com</a></div>
       </div>
     </div>
   </div>
 </div>
 
+<!-- LOCATION MAP -->
 
-<!-- OUR MINISTRIES -->
-
-<!-- // END OUR MINISTRIES--> 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d542.1904602726192!2d15.909731205854113!3d45.796491008615405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d657c3b1d8d5%3A0xd2632442c4642697!2sCrkva%20cjelovitog%20evan%C4%91elja!5e1!3m2!1shr!2shr!4v1593694613408!5m2!1shr!2shr" width="2000" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<!-- // END LOCATION MAP  --> 
 
 <!-- SUBSCRIBE -->
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <!-- END SUBSCRIBE --> 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 <!-- FOOTER -->
 <footer>
   <div class="container">
@@ -216,18 +163,14 @@ Primite neprestani val za valom, za valom, za valom Milosti koji Bog ima za vas 
     </div>
   </div>
 </footer>
-<!-- // END FOOTER --> 
-
-<!-- // END --> 
-
+<!-- END FOOTER --> 
 <!-- Bootstrap core JavaScript
 ================================================== --> 
 <!-- Placed at the end of the document so the pages load faster --> 
 <script src="js/jquery.js"></script> 
 <script src="js/bootstrap.min.js"></script> 
-<script src="js/owl.carousel.min.js"></script> 
 <script src="js/ketchup.all.js"></script> 
-<script src="js/fancybox.js"></script> 
+<script src="js/contact_form.js"></script> 
 <script src="js/script.js"></script> 
 
 </body>
