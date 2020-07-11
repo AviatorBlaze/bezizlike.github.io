@@ -42,26 +42,26 @@ If you having trouble in editing css, see documentation or please email me on su
 
 body {
 	font-family: 'Droid Serif', Arial, sans-serif;
-	background:#FFF;
+	background:white;
 	font-weight:300;
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	color:;
+	color:black;
 }
 a {
-	color:black;
+	color:#2c2c2a;
 	text-decoration:none;
 }
 a:hover, a:focus {
-	color:whitesmoke;
+	color:red;
 	text-decoration:none;
 }
 .link-reverse {
 	color:red;
 }
 .link-reverse:hover, .link-reverse:focus {
-	color:whitesmoke;
+	color:red;
 }
 strong, b {
 	font-weight:600;
@@ -130,13 +130,13 @@ font-size: 25px;
 	text-transform:uppercase;
 }
 .btn-giant {
-	padding: 18px 30px;
+	padding: 10px 19px;
 	font-size: 32px;
 	line-height: 1.33;
 	border-radius: 5px;
 }
 .btn-lg, .btn-group-lg>.btn {
-	padding: 14px 25px;
+	padding: 12px 24px;
 	font-size: 17px;
 	line-height: 1.3;
 	border-radius: 4px;
@@ -149,7 +149,7 @@ font-size: 25px;
 	border-radius:3px;
 }
 .form-control:focus {
-	border-color: red;
+	border-color: white;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -163,17 +163,17 @@ font-size: 25px;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
 	color: black;
-	background-color: white;
-	border-color: whitesmoke;
+	background-color: whitesmoke;
+	border-color: white;
 }
-.well 
-background: black;
+.well {
+	background:whitesmoke;
 	border:0;
 	-webkit-box-shadow:none;
 	box-shadow:none;
 }
 .highlight-bg {
-	background:red;
+	background:whitesmoke;
 	padding: 24px 0;
 }
 .has-margin-top {
@@ -217,17 +217,17 @@ background: black;
 	padding-top:10px;
 }
 .has-border {
-	border:1px solid white;
+	border:1px solid #eadeda;
 	-webkit-border-radius:3px;
 	-moz-border-radius:3px;
 	border-radius:3px;
 }
 .has-border-bottom {
-	border-bottom:1px solid white;
+	border-bottom:1px solid #eadeda;
 }
 .section-title {
 	text-align:center;
-	color:black;
+	color:#53504c;
 	min-height: 40px;
 	margin-bottom: 40px;
 }
@@ -241,7 +241,7 @@ background: black;
 	bottom: -12px;
 	width:30px;
 	height:4px;
-	background:white;
+	background:#919191;
 	margin-left: -15px;
 }
 .section-title.left-align {
@@ -256,7 +256,7 @@ background: black;
 }
 
 .badge {
-color: white;
+color: black;
 background-color: white;
 }
 
@@ -316,16 +316,16 @@ background-color: white;
 	color: #2c2c2a;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:active {
-	color: ;
+	color: ghostwhite;
 	background-color: transparent;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
-	color: ;
+	color: white;
 	background-color: transparent;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-	color: black;
-	background-color: whitesmoke;
+	color: #483f34;
+	background-color: white;
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
 	border-radius:5px;
@@ -398,7 +398,7 @@ left: 0;
 
 /* Carousel base class */
 .carousel {
-	height: 650px;
+	height: 790px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -413,8 +413,8 @@ top: 25%;
 }
 /* Declare heights because of positioning of img element */
 .carousel .item {
-	height: 550px;
-	background-color:white;
+	height: 770px;
+	background-color: #e2beae;
 }
 .carousel-control.left {
 	background-image:none;
@@ -426,7 +426,7 @@ top: 25%;
 	top:55%;
 }
 .slide-one {
-	background:url(ghostwhite.png) no-repeat; 
+	background:url(ghostwhite.png) no-repeat;
 	background-size:cover;
 }
 .slide-two {
@@ -449,7 +449,7 @@ top: 25%;
 	margin:0;
 	margin-bottom:10px;
 	font-weight:700;
-	color:#393939;
+	color:black;
 }
 .event-cta span {
 	color:red;
@@ -480,7 +480,7 @@ top: 25%;
 
 .event-details .ed-content {
 	line-height:2;	
-	color: #53504c;
+	color: black;
 }
 
 
@@ -509,7 +509,7 @@ top: 25%;
 }
 .el-block h4 {
 	position:relative;
-	color:#53504c;
+	color:#384047;
 }
 .el-block h4:after {
 	position:absolute;
@@ -518,11 +518,11 @@ top: 25%;
 	bottom: -12px;
 	width:20px;
 	height:4px;
-	background:#919191;
+	background:;
 	margin-left: -10px;
 }
 .el-head {
-	color:#53504c;
+	color:#384047;
 	font-size:18px;
 	margin:20px 0 5px;
 }
@@ -673,7 +673,7 @@ top: 25%;
 	width: 10px;
 	height: 10px;
 	margin: 5px;
-	background: whitesmoke;
+	background: black;
 	display: block;
 	-webkit-backface-visibility: visible;
 	-webkit-transition: opacity 200ms ease;
@@ -686,13 +686,13 @@ top: 25%;
 	border-radius: 30px
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-	background: black
+	background: white 
 }
 /*========== 8. LATEST BLOG ==============*/
 
 
 .media-heading {
-	color: #53504c;
+	color: whitesmoke;
 }
 .media-content {
 	margin-bottom:20px;
@@ -777,7 +777,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 	margin-bottom:20px;
 }
 .susbcribe-head span {
-	color:white;
+	color:#999085;
 	font-weight:normal;
 }
 .ketchup-error {
@@ -798,7 +798,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 /*========== 13. FOOTER ==============*/
 
 footer {
-	background:ghostwhite;
+	background:whitesmoke;
 	color:black;
 	padding-top:5px;
 }
@@ -812,7 +812,6 @@ footer h5 {
 }
 .footer-links li {
 	border-bottom:1px solid black;
-       
 	padding:5px;
 }
 footer p {
@@ -822,31 +821,30 @@ footer a {
 	color:black;
 }
 footer a:hover, footer a:focus {
-	color: red;
+	color: black;
 }
 .copyright {
-	background: white;
+	background:#696969;
 	padding-top:20px;
 	padding-bottom:10px;
 	margin-top:35px;
 }
 .social-icons a {
-	opacity:10;
+	opacity:0.5;
 }
 .social-icons a:hover, .social-icons a:focus {
-	opacity:0.8; 
+	opacity:0.10;
 }
 /*========== 14. SUB PAGES ==============*/
 
 
 .subpage-head {
-	background-color:ghostwhite;
-       
+	background-color:whitesmoke;
 	padding-top: 80px;
 	padding-bottom: 20px;
 }
 .subpage-head h3 {
-	color:black;
+	color:#53504c;
 }
  @media (min-width:992px) {
 .subpage-head {
@@ -856,15 +854,15 @@ footer a:hover, footer a:focus {
 /*========== 15. BLOG ==============*/
 
 .pagination>li>a, .pagination>li>span {
-	color:white;
+	color:#483f34;
 }
 .pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
-	color:whitesmoke;
+	color:#917E68;
 }
 .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
-	background-color: red;
+	background-color: #fdbf51;
 	border-color: #e7ad47;
-	color:whitesmoke;
+	color:#483f34;
 }
 .vertical-links li {
 	border-bottom: 1px solid #E6DDD4;
@@ -883,7 +881,7 @@ footer a:hover, footer a:focus {
 	font-size: 12px;
 }
 .comments-block > .media {
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #eadeda;
 	padding-bottom:20px;
 	margin-bottom:20px;
 }
@@ -912,8 +910,8 @@ footer a:hover, footer a:focus {
 	margin-bottom:0;
 }
 .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
-	color: white;
-	background-color: #ffc55f;
+	color: #483f34;
+	background-color: whitesmoke;
 }
 a.list-group-item.active>.badge, .nav-pills>.active>a>.badge {
 	color: #483f34;
@@ -937,7 +935,7 @@ background-color: #D3CFCC;
 
 .location-map {
 	height:260px;
-	background-color: black;
+	background-color: whitesmoke;
 }
 .location-map iframe {
 	width:100%;
@@ -948,7 +946,7 @@ background-color: #D3CFCC;
 /*========== 18. CHARITY DONATION ==============*/
 
 .charity-box {
-	background:#f9f1e6;
+	background:whitesmoke;
 	overflow:hidden;
 }
 
@@ -1008,6 +1006,15 @@ background-color: #D3CFCC;
 }
 
 }
+
+/*========== 12. IMAGES ==============*/
+
+img {
+border: 5px whitesmoke solid;
+}
+
+
+
 
 /*========== 19. EVENT CALENDAR ==============*/
 
@@ -1149,4 +1156,3 @@ background-color: #D3CFCC;
         transform: translateY(0)
     }
 }
-
