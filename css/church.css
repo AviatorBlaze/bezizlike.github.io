@@ -167,7 +167,7 @@ font-size: 25px;
 	border-color: white;
 }
 .well {
-	background:whitesmoke;
+	background:black;
 	border:0;
 	-webkit-box-shadow:none;
 	box-shadow:none;
@@ -217,13 +217,13 @@ font-size: 25px;
 	padding-top:10px;
 }
 .has-border {
-	border:1px solid #eadeda;
+	border:1px solid white;
 	-webkit-border-radius:3px;
 	-moz-border-radius:3px;
 	border-radius:3px;
 }
 .has-border-bottom {
-	border-bottom:1px solid #eadeda;
+	border-bottom:1px solid white;
 }
 .section-title {
 	text-align:center;
@@ -257,7 +257,7 @@ font-size: 25px;
 
 .badge {
 color: black;
-background-color: white;
+background-color: whitesmoke;
 }
 
 @media (min-width:768px) {
@@ -398,7 +398,7 @@ left: 0;
 
 /* Carousel base class */
 .carousel {
-	height: 790px;
+	height: 777px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -408,13 +408,13 @@ left: 0;
 }
  @media (max-width:480px) {
 .carousel-caption {
-top: 25%;
+top: 33%;
 }
 }
 /* Declare heights because of positioning of img element */
 .carousel .item {
 	height: 770px;
-	background-color: #e2beae;
+	background-color: white;
 }
 .carousel-control.left {
 	background-image:none;
@@ -426,15 +426,15 @@ top: 25%;
 	top:55%;
 }
 .slide-one {
-	background:url(ghostwhite.png) no-repeat;
+	background:url(CCE%20Advent%202017.jpg) no-repeat;
 	background-size:cover;
 }
 .slide-two {
-	background:url(ghostwhite.png) no-repeat;
+	background:url(CCE%20Advent%2020172.jpg) no-repeat;
 	background-size:cover;
 }
 .slide-three {
-	background:url(ghostwhite.png) no-repeat;
+	background:url(CCE%20Advent%202017%203.jpg) no-repeat;
 	background-size:cover;
 }
 
@@ -444,6 +444,8 @@ top: 25%;
 .event-cta {
 	text-align:center;
 }
+
+
 .event-cta p {
 	font-size:23px;
 	margin:0;
@@ -768,6 +770,14 @@ a.list-group-item:hover, a.list-group-item:focus {
 .blockquote-centered small {
 	padding:15px 0;
 }
+
+
+
+/*========== 2. SCREEN LOADER ==============*/
+
+
+
+
 /*========== 12. SUBSCRIBE ==============*/
 
 .susbcribe-head {
@@ -799,7 +809,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 
 footer {
 	background:whitesmoke;
-	color:black;
+	color:#384047;
 	padding-top:5px;
 }
 footer h5 {
@@ -824,7 +834,7 @@ footer a:hover, footer a:focus {
 	color: black;
 }
 .copyright {
-	background:#696969;
+	background:;
 	padding-top:20px;
 	padding-bottom:10px;
 	margin-top:35px;
